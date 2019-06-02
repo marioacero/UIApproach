@@ -18,7 +18,7 @@ class ClipsViewController: UIViewController {
     var viewModel: ClipsViewModel!
     var xAxis: CGFloat!
     
-    let xNextPositionFrame: CGFloat = 20
+    let xNextPositionFrame: CGFloat = 30
     let colors: [UIColor] = [UIColor.AppColors.purpleGradient,
                              UIColor.AppColors.yellowGradient,
                              UIColor.AppColors.blue,
@@ -26,7 +26,7 @@ class ClipsViewController: UIViewController {
                              UIColor.AppColors.green]
     
     struct Constants {
-        static let paddingAnimationRight: CGFloat = 50
+        static let paddingAnimationRight: CGFloat = 70
         static let yFinalAxis: CGFloat = -400
         static let clipCellHeight: CGFloat = 420
         static let commentsCellHeight: CGFloat = 40
@@ -106,7 +106,7 @@ class ClipsViewController: UIViewController {
         label.layer.add(opacityAnimation(), forKey: Constants.opacityPath)
         label.layer.position = CGPoint.init(x: xAxis, y: Constants.yFinalAxis)
         
-        let delay: TimeInterval = TimeInterval(1.2)
+        let delay: TimeInterval = TimeInterval(1.0)
         DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
             label.removeFromSuperview()
         }
