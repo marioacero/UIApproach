@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E486414435A4A56F72538D8 /* Pods_StreamLabsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBBD4CF0A8D1D96B1371206 /* Pods_StreamLabsUI.framework */; };
+		B43E53B4A54AFA3B101E5656 /* Pods_StreamLabsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE15C3D4DEF2743C129243EB /* Pods_StreamLabsUITests.framework */; };
 		DC11CBFA22A2BCFD00F8B9AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CBF922A2BCFD00F8B9AD /* AppDelegate.swift */; };
-		DC11CBFC22A2BCFD00F8B9AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CBFB22A2BCFD00F8B9AD /* ViewController.swift */; };
 		DC11CBFF22A2BCFD00F8B9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC11CBFD22A2BCFD00F8B9AD /* Main.storyboard */; };
 		DC11CC0122A2BCFE00F8B9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC11CC0022A2BCFE00F8B9AD /* Assets.xcassets */; };
 		DC11CC0422A2BCFE00F8B9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC11CC0222A2BCFE00F8B9AD /* LaunchScreen.storyboard */; };
 		DC11CC0F22A2BCFE00F8B9AD /* StreamLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC0E22A2BCFE00F8B9AD /* StreamLabsUITests.swift */; };
+		DC11CC1C22A2D08800F8B9AD /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC1B22A2D08800F8B9AD /* ClipsViewController.swift */; };
+		DC11CC1E22A2D2A100F8B9AD /* ClipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC1D22A2D2A100F8B9AD /* ClipsViewModel.swift */; };
+		DC11CC2122A2D37400F8B9AD /* HighlightCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC1F22A2D37400F8B9AD /* HighlightCollectionViewCell.swift */; };
+		DC11CC2222A2D37400F8B9AD /* HighlightCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC11CC2022A2D37400F8B9AD /* HighlightCollectionViewCell.xib */; };
+		DC11CC2522A2D49100F8B9AD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC2422A2D49100F8B9AD /* Extension.swift */; };
+		DC11CC2722A2DEAD00F8B9AD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC2622A2DEAD00F8B9AD /* AppConstants.swift */; };
+		DC11CC2B22A2E01D00F8B9AD /* UseCaseLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC2A22A2E01D00F8B9AD /* UseCaseLocator.swift */; };
+		DC11CC2D22A2E02900F8B9AD /* BaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC2C22A2E02900F8B9AD /* BaseUseCase.swift */; };
+		DC11CC3022A2E08B00F8B9AD /* GetClipsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC2F22A2E08B00F8B9AD /* GetClipsUseCase.swift */; };
+		DC11CC3222A2E09B00F8B9AD /* GetClipsUseCaseImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC3122A2E09B00F8B9AD /* GetClipsUseCaseImp.swift */; };
+		DC11CC3622A2E20B00F8B9AD /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC3522A2E20B00F8B9AD /* NetworkProvider.swift */; };
+		DC11CC3822A2E24100F8B9AD /* StreamAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC3722A2E24100F8B9AD /* StreamAPI.swift */; };
+		DC11CC3B22A2E58900F8B9AD /* MockLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC3A22A2E58900F8B9AD /* MockLocator.swift */; };
+		DC11CC3D22A2E5F500F8B9AD /* clips_response.json in Resources */ = {isa = PBXBuildFile; fileRef = DC11CC3C22A2E5F500F8B9AD /* clips_response.json */; };
+		DC11CC4022A2E61B00F8B9AD /* Clips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC3F22A2E61B00F8B9AD /* Clips.swift */; };
+		DC11CC4222A2EAEB00F8B9AD /* ProviderCustomClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC4122A2EAEB00F8B9AD /* ProviderCustomClosure.swift */; };
+		DC11CC4422A2EC0700F8B9AD /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC4322A2EC0700F8B9AD /* GenericResponse.swift */; };
+		DC11CC4622A305D300F8B9AD /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC4522A305D300F8B9AD /* GradiantView.swift */; };
+		DC11CC4A22A311ED00F8B9AD /* ClipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC4822A311ED00F8B9AD /* ClipTableViewCell.swift */; };
+		DC11CC4B22A311ED00F8B9AD /* ClipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC11CC4922A311ED00F8B9AD /* ClipTableViewCell.xib */; };
+		DC11CC4E22A3285D00F8B9AD /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CC4C22A3285D00F8B9AD /* CommentsTableViewCell.swift */; };
+		DC11CC4F22A3285D00F8B9AD /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC11CC4D22A3285D00F8B9AD /* CommentsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1641FAABF94633A7321264A6 /* Pods-StreamLabsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamLabsUITests.debug.xcconfig"; path = "Target Support Files/Pods-StreamLabsUITests/Pods-StreamLabsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6D1C8ACE4E8DF2030A95D3 /* Pods-StreamLabsUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamLabsUI.debug.xcconfig"; path = "Target Support Files/Pods-StreamLabsUI/Pods-StreamLabsUI.debug.xcconfig"; sourceTree = "<group>"; };
+		A68C4BB349A68EFA90B3DA26 /* Pods-StreamLabsUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamLabsUI.release.xcconfig"; path = "Target Support Files/Pods-StreamLabsUI/Pods-StreamLabsUI.release.xcconfig"; sourceTree = "<group>"; };
+		AE15C3D4DEF2743C129243EB /* Pods_StreamLabsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamLabsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C565D61AF23429FB3B13F35B /* Pods-StreamLabsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamLabsUITests.release.xcconfig"; path = "Target Support Files/Pods-StreamLabsUITests/Pods-StreamLabsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CEBBD4CF0A8D1D96B1371206 /* Pods_StreamLabsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamLabsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC11CBF622A2BCFD00F8B9AD /* StreamLabsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamLabsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC11CBF922A2BCFD00F8B9AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC11CBFB22A2BCFD00F8B9AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC11CBFE22A2BCFD00F8B9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC11CC0022A2BCFE00F8B9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC11CC0322A2BCFE00F8B9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +64,28 @@
 		DC11CC0A22A2BCFE00F8B9AD /* StreamLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC11CC0E22A2BCFE00F8B9AD /* StreamLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamLabsUITests.swift; sourceTree = "<group>"; };
 		DC11CC1022A2BCFE00F8B9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC11CC1B22A2D08800F8B9AD /* ClipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipsViewController.swift; sourceTree = "<group>"; };
+		DC11CC1D22A2D2A100F8B9AD /* ClipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipsViewModel.swift; sourceTree = "<group>"; };
+		DC11CC1F22A2D37400F8B9AD /* HighlightCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC11CC2022A2D37400F8B9AD /* HighlightCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighlightCollectionViewCell.xib; sourceTree = "<group>"; };
+		DC11CC2422A2D49100F8B9AD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DC11CC2622A2DEAD00F8B9AD /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		DC11CC2A22A2E01D00F8B9AD /* UseCaseLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseLocator.swift; sourceTree = "<group>"; };
+		DC11CC2C22A2E02900F8B9AD /* BaseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCase.swift; sourceTree = "<group>"; };
+		DC11CC2F22A2E08B00F8B9AD /* GetClipsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetClipsUseCase.swift; sourceTree = "<group>"; };
+		DC11CC3122A2E09B00F8B9AD /* GetClipsUseCaseImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetClipsUseCaseImp.swift; sourceTree = "<group>"; };
+		DC11CC3522A2E20B00F8B9AD /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		DC11CC3722A2E24100F8B9AD /* StreamAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamAPI.swift; sourceTree = "<group>"; };
+		DC11CC3A22A2E58900F8B9AD /* MockLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocator.swift; sourceTree = "<group>"; };
+		DC11CC3C22A2E5F500F8B9AD /* clips_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clips_response.json; sourceTree = "<group>"; };
+		DC11CC3F22A2E61B00F8B9AD /* Clips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clips.swift; sourceTree = "<group>"; };
+		DC11CC4122A2EAEB00F8B9AD /* ProviderCustomClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderCustomClosure.swift; sourceTree = "<group>"; };
+		DC11CC4322A2EC0700F8B9AD /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		DC11CC4522A305D300F8B9AD /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
+		DC11CC4822A311ED00F8B9AD /* ClipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipTableViewCell.swift; sourceTree = "<group>"; };
+		DC11CC4922A311ED00F8B9AD /* ClipTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClipTableViewCell.xib; sourceTree = "<group>"; };
+		DC11CC4C22A3285D00F8B9AD /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		DC11CC4D22A3285D00F8B9AD /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E486414435A4A56F72538D8 /* Pods_StreamLabsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +101,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43E53B4A54AFA3B101E5656 /* Pods_StreamLabsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FE7BCCC8F79F62AC2BC19F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBD4CF0A8D1D96B1371206 /* Pods_StreamLabsUI.framework */,
+				AE15C3D4DEF2743C129243EB /* Pods_StreamLabsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC11CBED22A2BCFD00F8B9AD = {
 			isa = PBXGroup;
 			children = (
 				DC11CBF822A2BCFD00F8B9AD /* StreamLabsUI */,
 				DC11CC0D22A2BCFE00F8B9AD /* StreamLabsUITests */,
 				DC11CBF722A2BCFD00F8B9AD /* Products */,
+				E32620CB6C2AF9E5865EBCEC /* Pods */,
+				8FE7BCCC8F79F62AC2BC19F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +140,11 @@
 		DC11CBF822A2BCFD00F8B9AD /* StreamLabsUI */ = {
 			isa = PBXGroup;
 			children = (
+				DC11CC3322A2E1D500F8B9AD /* DataSource */,
+				DC11CC2822A2DFE600F8B9AD /* Domain */,
+				DC11CC1922A2C34900F8B9AD /* Common */,
+				DC11CC1A22A2D07400F8B9AD /* Presentation */,
 				DC11CBF922A2BCFD00F8B9AD /* AppDelegate.swift */,
-				DC11CBFB22A2BCFD00F8B9AD /* ViewController.swift */,
 				DC11CBFD22A2BCFD00F8B9AD /* Main.storyboard */,
 				DC11CC0022A2BCFE00F8B9AD /* Assets.xcassets */,
 				DC11CC0222A2BCFE00F8B9AD /* LaunchScreen.storyboard */,
@@ -96,6 +162,123 @@
 			path = StreamLabsUITests;
 			sourceTree = "<group>";
 		};
+		DC11CC1922A2C34900F8B9AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC2422A2D49100F8B9AD /* Extension.swift */,
+				DC11CC2622A2DEAD00F8B9AD /* AppConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DC11CC1A22A2D07400F8B9AD /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC4722A311C000F8B9AD /* ClipTableViewCell */,
+				DC11CC2322A2D37D00F8B9AD /* HiglightCollectionCell */,
+				DC11CC1B22A2D08800F8B9AD /* ClipsViewController.swift */,
+				DC11CC1D22A2D2A100F8B9AD /* ClipsViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DC11CC2322A2D37D00F8B9AD /* HiglightCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC4522A305D300F8B9AD /* GradiantView.swift */,
+				DC11CC1F22A2D37400F8B9AD /* HighlightCollectionViewCell.swift */,
+				DC11CC2022A2D37400F8B9AD /* HighlightCollectionViewCell.xib */,
+			);
+			path = HiglightCollectionCell;
+			sourceTree = "<group>";
+		};
+		DC11CC2822A2DFE600F8B9AD /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC2922A2DFFE00F8B9AD /* UseCaseLocator */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DC11CC2922A2DFFE00F8B9AD /* UseCaseLocator */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC2E22A2E04900F8B9AD /* GetClipsUseCase */,
+				DC11CC2A22A2E01D00F8B9AD /* UseCaseLocator.swift */,
+				DC11CC2C22A2E02900F8B9AD /* BaseUseCase.swift */,
+			);
+			path = UseCaseLocator;
+			sourceTree = "<group>";
+		};
+		DC11CC2E22A2E04900F8B9AD /* GetClipsUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC2F22A2E08B00F8B9AD /* GetClipsUseCase.swift */,
+				DC11CC3122A2E09B00F8B9AD /* GetClipsUseCaseImp.swift */,
+			);
+			path = GetClipsUseCase;
+			sourceTree = "<group>";
+		};
+		DC11CC3322A2E1D500F8B9AD /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC3E22A2E60700F8B9AD /* Models */,
+				DC11CC3922A2E57C00F8B9AD /* Mock */,
+				DC11CC3422A2E1E300F8B9AD /* Networking */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		DC11CC3422A2E1E300F8B9AD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC3522A2E20B00F8B9AD /* NetworkProvider.swift */,
+				DC11CC3722A2E24100F8B9AD /* StreamAPI.swift */,
+				DC11CC4122A2EAEB00F8B9AD /* ProviderCustomClosure.swift */,
+				DC11CC4322A2EC0700F8B9AD /* GenericResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DC11CC3922A2E57C00F8B9AD /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC3C22A2E5F500F8B9AD /* clips_response.json */,
+				DC11CC3A22A2E58900F8B9AD /* MockLocator.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		DC11CC3E22A2E60700F8B9AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC3F22A2E61B00F8B9AD /* Clips.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC11CC4722A311C000F8B9AD /* ClipTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CC4822A311ED00F8B9AD /* ClipTableViewCell.swift */,
+				DC11CC4922A311ED00F8B9AD /* ClipTableViewCell.xib */,
+				DC11CC4C22A3285D00F8B9AD /* CommentsTableViewCell.swift */,
+				DC11CC4D22A3285D00F8B9AD /* CommentsTableViewCell.xib */,
+			);
+			path = ClipTableViewCell;
+			sourceTree = "<group>";
+		};
+		E32620CB6C2AF9E5865EBCEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E6D1C8ACE4E8DF2030A95D3 /* Pods-StreamLabsUI.debug.xcconfig */,
+				A68C4BB349A68EFA90B3DA26 /* Pods-StreamLabsUI.release.xcconfig */,
+				1641FAABF94633A7321264A6 /* Pods-StreamLabsUITests.debug.xcconfig */,
+				C565D61AF23429FB3B13F35B /* Pods-StreamLabsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC11CC1322A2BCFE00F8B9AD /* Build configuration list for PBXNativeTarget "StreamLabsUI" */;
 			buildPhases = (
+				998940F3E420F7633B834BED /* [CP] Check Pods Manifest.lock */,
 				DC11CBF222A2BCFD00F8B9AD /* Sources */,
 				DC11CBF322A2BCFD00F8B9AD /* Frameworks */,
 				DC11CBF422A2BCFD00F8B9AD /* Resources */,
+				F5DA0516115E61126CEB51CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC11CC1622A2BCFE00F8B9AD /* Build configuration list for PBXNativeTarget "StreamLabsUITests" */;
 			buildPhases = (
+				A1E2955B48E588CE41AF7491 /* [CP] Check Pods Manifest.lock */,
 				DC11CC0622A2BCFE00F8B9AD /* Sources */,
 				DC11CC0722A2BCFE00F8B9AD /* Frameworks */,
 				DC11CC0822A2BCFE00F8B9AD /* Resources */,
@@ -179,7 +365,11 @@
 			files = (
 				DC11CC0422A2BCFE00F8B9AD /* LaunchScreen.storyboard in Resources */,
 				DC11CC0122A2BCFE00F8B9AD /* Assets.xcassets in Resources */,
+				DC11CC3D22A2E5F500F8B9AD /* clips_response.json in Resources */,
+				DC11CC4B22A311ED00F8B9AD /* ClipTableViewCell.xib in Resources */,
 				DC11CBFF22A2BCFD00F8B9AD /* Main.storyboard in Resources */,
+				DC11CC2222A2D37400F8B9AD /* HighlightCollectionViewCell.xib in Resources */,
+				DC11CC4F22A3285D00F8B9AD /* CommentsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +382,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		998940F3E420F7633B834BED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamLabsUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E2955B48E588CE41AF7491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamLabsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DA0516115E61126CEB51CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreamLabsUI/Pods-StreamLabsUI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreamLabsUI/Pods-StreamLabsUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC11CBF222A2BCFD00F8B9AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC11CBFC22A2BCFD00F8B9AD /* ViewController.swift in Sources */,
+				DC11CC2122A2D37400F8B9AD /* HighlightCollectionViewCell.swift in Sources */,
+				DC11CC2D22A2E02900F8B9AD /* BaseUseCase.swift in Sources */,
+				DC11CC1C22A2D08800F8B9AD /* ClipsViewController.swift in Sources */,
+				DC11CC3022A2E08B00F8B9AD /* GetClipsUseCase.swift in Sources */,
+				DC11CC3622A2E20B00F8B9AD /* NetworkProvider.swift in Sources */,
+				DC11CC3222A2E09B00F8B9AD /* GetClipsUseCaseImp.swift in Sources */,
+				DC11CC4E22A3285D00F8B9AD /* CommentsTableViewCell.swift in Sources */,
+				DC11CC2522A2D49100F8B9AD /* Extension.swift in Sources */,
+				DC11CC4A22A311ED00F8B9AD /* ClipTableViewCell.swift in Sources */,
+				DC11CC2B22A2E01D00F8B9AD /* UseCaseLocator.swift in Sources */,
+				DC11CC4222A2EAEB00F8B9AD /* ProviderCustomClosure.swift in Sources */,
+				DC11CC2722A2DEAD00F8B9AD /* AppConstants.swift in Sources */,
+				DC11CC3B22A2E58900F8B9AD /* MockLocator.swift in Sources */,
+				DC11CC1E22A2D2A100F8B9AD /* ClipsViewModel.swift in Sources */,
+				DC11CC4422A2EC0700F8B9AD /* GenericResponse.swift in Sources */,
+				DC11CC4022A2E61B00F8B9AD /* Clips.swift in Sources */,
 				DC11CBFA22A2BCFD00F8B9AD /* AppDelegate.swift in Sources */,
+				DC11CC4622A305D300F8B9AD /* GradiantView.swift in Sources */,
+				DC11CC3822A2E24100F8B9AD /* StreamAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +638,7 @@
 		};
 		DC11CC1422A2BCFE00F8B9AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6D1C8ACE4E8DF2030A95D3 /* Pods-StreamLabsUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +656,7 @@
 		};
 		DC11CC1522A2BCFE00F8B9AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68C4BB349A68EFA90B3DA26 /* Pods-StreamLabsUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +674,7 @@
 		};
 		DC11CC1722A2BCFE00F8B9AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1641FAABF94633A7321264A6 /* Pods-StreamLabsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +695,7 @@
 		};
 		DC11CC1822A2BCFE00F8B9AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C565D61AF23429FB3B13F35B /* Pods-StreamLabsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

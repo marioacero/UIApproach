@@ -1,0 +1,79 @@
+{
+  "highlights": [ {
+      "nickName": "Ninja",
+      "badge": 3,
+      "avatar": "Aatrox",
+      "likes": "12.7k",
+      "followers": "8.9k",
+      "video": {
+        "status": "NYC was fun but I'm back!",
+        "clipLikes": "1.3k",  
+        "views": "32.1k",
+        "clippedTime": 5,
+        "clippedUser": "Jinjuh",
+        "lenght": "3h 45m 32s",
+        "entries": "1,029",
+        "rank": "#12 in Today's Top Clip Contest",
+        "prize": "$1k Prize pool",
+        "thumbnail": "5cf1d06b9935a",
+        "totalComments": 102,
+        "comments": [
+            {
+              "user": "drg5",
+              "comment": "just like this 100 times 👌"
+            },
+            {
+              "user": "ninja",
+              "comment": "😹😹😹😹😹"
+            },
+            {
+              "user": "yuieeroo",
+              "comment": "Nice game 🙌👏🏻"
+            },
+            {
+              "user": "pichachU",
+              "comment": "🐍🤽‍♀️ very good!"
+            },
+            {
+                "user": "roberto",
+                "comment": "🐍🤽‍♀️ very good!"
+            },
+            {
+                "user": "kmilo 98",
+                "comment": "🚀🛸🚁 100 times"
+            }
+          ]
+      }
+    }, 
+    {
+      "nickName": "pokimane",
+      "badge": 2,
+      "avatar": "Ahri"
+    },
+    {
+      "nickName": "DrLupo",
+      "badge": 5,
+      "avatar": "Akali"
+    },
+    {
+      "nickName": "KingRing",
+      "avatar": "Alistar"
+    },
+    {
+      "nickName": "plessMess",
+      "avatar": "Amumu"
+    },
+    {
+      "nickName": "regerd56T",
+      "avatar": "Anivia"
+    },
+    {
+      "nickName": "plusTURT",
+      "avatar": "Ashe"
+    },
+    {
+      "nickName": "lockMind",
+      "avatar": "AurelionSol"
+    }
+  ]
+}
