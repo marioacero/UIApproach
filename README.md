@@ -16,3 +16,4 @@ Some of the technologies used were
     
   * Core Animation
 
+<img width="371" alt="Screen Shot 2019-06-01 at 10 13 23 PM" src="https://user-images.githubusercontent.com/18216713/58756268-a5aef180-84ba-11e9-803c-8290f49bfed4.png">
