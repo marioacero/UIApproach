@@ -47,6 +47,9 @@ class ClipsViewController: UIViewController {
         viewModel.getClips()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     func configureUI() {
         self.view.backgroundColor = UIColor.AppColors.backgroundBlack
         bottomView.layer.masksToBounds = false
